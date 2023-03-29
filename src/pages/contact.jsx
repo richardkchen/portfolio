@@ -14,10 +14,10 @@ export const ContactPage = ({ propRef, handleEmailClick, contactData }) => {
         <button onClick={handleEmailClick}>
           <img src='images/mail.png' alt='mail' />
         </button>
-        <a href={github} target='_blank'>
+        <a href={github} target='_blank' rel='noreferrer'>
           <img src='images/github.png' alt='github' />
         </a>
-        <a href={linkedIn} target='_blank'>
+        <a href={linkedIn} target='_blank' rel='noreferrer'>
           <img src='images/linkedin.png' alt='linkedin' />
         </a>
       </div>

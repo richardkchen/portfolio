@@ -1,5 +1,4 @@
 import React from 'react'
-import { Layout } from './layout'
 import { TwoToneText } from './two-tone-text'
 
 
@@ -15,7 +14,7 @@ export const WorksCard = ({
 }) => {
   const PreviewImage = () => (
     <div className='works-preview-img'>
-      {<img src={imageSource} />}
+      {<img src={imageSource} alt='' />}
     </div>
   )
 

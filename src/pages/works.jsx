@@ -1,5 +1,4 @@
 import React from 'react'
-import { Layout } from '../components/layout'
 import { WorksCard } from '../components/works-card'
 import { worksData } from '../static/worksData'
 
