@@ -8,7 +8,6 @@ import {
 import { Layout } from './components/layout'
 import { useEffect, useRef, useState } from 'react'
 import { useScrollPosition } from './hooks/useScrollPosition'
-import { aboutData } from './static/aboutData'
 import { contactData } from './static/contactData'
 import { worksData } from './static/worksData'
 
@@ -94,7 +93,7 @@ function App() {
       >
         <HomePage propRef={homePageRef} />
         <WorksPage propRef={worksPageRef} worksData={worksData} />
-        <AboutPage propRef={aboutPageRef} aboutData={aboutData} />
+        <AboutPage propRef={aboutPageRef} />
         <ContactPage
           propRef={contactPageRef}
           handleEmailClick={handleEmailClick}
@@ -103,13 +102,13 @@ function App() {
       </Layout>
 
       {pageEnd ? (
-        <a className='expand-more' onClick={handleScrollToTop}>
+        <button className='expand-more' onClick={handleScrollToTop}>
           <img src='images/keyboard-return.png' alt='scroll to top' />
-        </a>
+        </button>
       ) : (
-        <a className='expand-more' onClick={handleNextPage}>
+        <button className='expand-more' onClick={handleNextPage}>
           <img src='images/chevron-down.png' alt='next' />
-        </a>
+        </button>
       )}
     </>
   )

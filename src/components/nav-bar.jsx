@@ -12,24 +12,24 @@ export const NavBar = ({visible, handleNavLink}) => {
           <nav className='nav'>
             <ul>
               <li>
-                <a name='home' onClick={handleNavLink}>
+                <button name='home' onClick={handleNavLink}>
                   home
-                </a>
+                </button>
               </li>
               <li>
-                <a name='works' onClick={handleNavLink}>
+                <button name='works' onClick={handleNavLink}>
                   works
-                </a>
+                </button>
               </li>
               <li>
-                <a name='about' onClick={handleNavLink}>
+                <button name='about' onClick={handleNavLink}>
                   about
-                </a>
+                </button>
               </li>
               <li>
-                <a name='contact' onClick={handleNavLink}>
+                <button name='contact' onClick={handleNavLink}>
                   contact
-                </a>
+                </button>
               </li>
             </ul>
           </nav>

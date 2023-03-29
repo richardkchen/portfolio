@@ -4,7 +4,6 @@
 
   font-weight: 300;
   color: #777;
-  /* background-color: #010101; */
 }
 
 html,
@@ -48,7 +47,9 @@ strong {
   background-clip: text;
 }
 
-.nav a {
+.nav button {
+  background-color: transparent;
+  border: 0;
   display: inline-block;
   padding: 0.5em;
   color: white;
@@ -253,7 +254,7 @@ strong {
 }
 
 .works-demo-button {
-  background-color: #010101;
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -388,17 +389,12 @@ strong {
 }
 
 .contact-social-links-container button {
-  background-color: #010101;
-  border: 0;
-}
-
-.contact-social-links-container a {
-  background-color: #010101;
+  background-color: transparent;
   border: 0;
 }
 
 .contact-social-links-container img {
-  background-color: #010101;
+  background-color: transparent;
   height: 48px;
   width: 48px;
 }
@@ -408,6 +404,8 @@ strong {
 }
 
 .expand-more {
+  background-color: transparent;
+  border: 0;
   position: sticky;
   width: 40px;
   height: 40px;

@@ -18,11 +18,11 @@ export const AboutPage = ({ propRef, aboutData }) => {
       </div>
       <div className='about-images-container'>
         <div className='about-images-col1'>
-          <img src={pizzaImage} />
+          <img src={pizzaImage} alt='pizza' />
         </div>
         <div className='about-images-col2'>
-          <img src={grandpaImage} />
-          <img src={travelImage} />
+          <img src={grandpaImage} alt='grandpa' />
+          <img src={travelImage} alt='travel' />
         </div>
       </div>
     </section>
