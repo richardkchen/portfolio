@@ -1,6 +1,6 @@
 export const worksData = [
   {
-    imageSource: './images/swatch.png',
+    imageFileName: 'swatch.png',
     title: 'swatch',
     description: 'Swatch of random ',
     strong: `colors. That's about it.`,
@@ -8,7 +8,7 @@ export const worksData = [
     url: 'https://swatch.rch3n.com',
   },
   {
-    imageSource: './images/breakout.png',
+    imageFileName: 'breakout.png',
     title: 'breakout',
     description: 'Break the bricks.',
     strong: '',
@@ -16,7 +16,7 @@ export const worksData = [
     url: 'https://breakout.rch3n.com',
   },
   {
-    imageSource: './images/smart-house.png',
+    imageFileName: 'smart-house.png',
     title: 'light switch',
     description: 'Turn on my lights. ',
     strong: 'Or turn them off.',

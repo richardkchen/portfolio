@@ -11,12 +11,11 @@ export const WorksCard = ({
   description = '',
   strong = '',
   category = '',
-  url = '',
   handleViewWorkButton = null
 }) => {
   const PreviewImage = () => (
     <div className='works-preview-img'>
-      <img src={imageSource} alt='real estate' />
+      {<img src={imageSource} />}
     </div>
   )
 

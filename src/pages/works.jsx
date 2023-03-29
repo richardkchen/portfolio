@@ -12,6 +12,7 @@ const cards = worksData.map((work, key) => {
     ...work,
     imageLeft: key % 2 === 0,
     handleViewWorkButton,
+    imageSource: require(`../images/${work.imageFileName}`),
   }
   return <WorksCard {...props} />
 })
